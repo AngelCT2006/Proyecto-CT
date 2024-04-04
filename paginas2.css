@@ -1,0 +1,24 @@
+body {
+    background:linear-gradient(to top, transparent, rgba(255, 22, 224, 0.76)), url(img/flor.png);
+    background-size: 50%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.boton{
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: rgb(44, 38, 38);
+    max-width: 135px;
+    opacity: 1;
+    border-radius: 15px;
+}

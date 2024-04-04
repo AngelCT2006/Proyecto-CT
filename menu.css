@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 245, 99);
+    justify-content: center;
+    text-align: right;
+    height: 10vh;
+    
+}
+.contenedor{
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 20px;
+    padding: 40px;
+    color: #080808;
+}
+.contenedor header h1{
+    text-align: center;
+    font-size: 50px;
+}
+.contenedor header nav{
+    float: center;
+}
+.contenedor header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.contenedor header nav ul li{
+    margin: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor header nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 33px;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.contenedor header nav ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+.contenedor header .Busqueda{
+    float: right;
+}
+.contenedor header .Busqueda input{
+    display: inline-block;
+    width: 200px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.548);
+    padding: 7px;
+    outline: none;
+    color: #000000;
+    border-right: 8px;
+    transition: .5s;
+    opacity: 0;
+}
+.contenedor header .Busqueda:hover input{
+    opacity: 3;
+}
+.contenedor header .Busqueda i{
+    cursor: pointer;
+}
+.imagenes{
+    height: 20px;
+}
